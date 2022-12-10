@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main = return single integer from 0-10
+ * main - return single integer from 0-10
  *
  * Return: 0
  */
