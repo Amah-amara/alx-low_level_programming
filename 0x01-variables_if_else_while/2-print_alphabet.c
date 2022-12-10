@@ -3,6 +3,7 @@
 
 /**
  * main - Prints the alphabet in lowercase
+ *
  * Return: 0
  */
 int main(void)
@@ -14,6 +15,6 @@ int main(void)
 		ch++;
 	}	
 
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }	
