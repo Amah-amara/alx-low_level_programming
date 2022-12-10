@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main = base 10 digits returned
+ * main = return single integer from 0-10
  *
  * Return: 0
  */
@@ -16,7 +16,7 @@ int main(void)
 		printf("%d", num);
 		num++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 
