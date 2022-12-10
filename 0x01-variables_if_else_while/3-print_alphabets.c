@@ -8,7 +8,7 @@
  */
 
 int main(void)
-{	
+{
 	int ch = 'a';
 	int CH = 'A';
 
@@ -22,7 +22,7 @@ int main(void)
 		putchar(CH);
 		CH++;
 	}
-	
+
 	putchar('\n');
 	return (0);
 }
