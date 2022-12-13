@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign - entry point
- *_islower-checks if a character is lowercase if YES it returns 1
+ * _islower - entry point
+ * _islower-checks if a character is lowercase if YES it returns 1
  * otherwise returns 0 just like islower() function in ctype.h
+ * @c: is the int value to be compared with the ASCII value
  * Return: 0
  */
 
