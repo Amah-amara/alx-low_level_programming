@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha checks if c is a letter and returns 1
+ * _isalpha - checks if c is a letter and returns 1
  * @c: unsigned int value to be compared with ASCII value
  *
  * Return: 1 if alphabet otherwise 0
