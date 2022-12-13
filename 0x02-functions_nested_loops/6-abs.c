@@ -7,7 +7,7 @@
  * Return: returns an unsigned int value to calling function
  */
 
-int _abs(int n);
+int _abs(int n)
 {
 	if (n > 0)
 	{
