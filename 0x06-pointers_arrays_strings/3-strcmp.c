@@ -20,6 +20,6 @@ int _strcmp(char *s1, char *s2)
 		counter++;
 	}
 
-	comStr = s![counter] -s2[counter];
+	comStr = s1[counter] - s2[counter];
 	return (comStr);
 }
