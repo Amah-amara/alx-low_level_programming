@@ -16,7 +16,7 @@ void print_diagsums(int *a, int size)
 	for (row = 0; row < size; row++)
 	{
 		diagonal_sum_1 += a[(size + 1) * row];
-		diagonal_sum_2 += a[(size - 1) * (row - 1)];
+		diagonal_sum_2 += a[(size - 1) * (row + 1)];
 	}
 	printf("%d, %d\n", diagonal_sum_1, diagonal_sum_2);
 
