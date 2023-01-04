@@ -15,6 +15,7 @@ int check(int a, int b)
 		return (b);
 	else
 		return (check(a, b + 1));
+	return (1);
 }
 
 /**
