@@ -21,7 +21,7 @@ int check(int a, int b)
 /**
  * _sqrt_recursion - returns the natural root of number
  * @n: integer to find square root
- * Return: naturalsquare root or -1
+ * Return: natural square root of @n
  */
 
 int _sqrt_recursion(int n)
