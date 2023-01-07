@@ -1,29 +1,31 @@
 #include "main.h"
+
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * _strspn - function that gets the length of a prefix substring
+ * @s: string to search
+ * @accept: target matches
+ * Return: number of bytes consecutively matched
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int n = 0;
-	int r;
+	int i = 0, j;
+	int matches = 0;
 
-	while (*s)
+	while (s[i] != '\0')
 	{
-		for (r = 0; accept[r]; r++)
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (*s == accept[r])
+			if (s[i] == accept[j])
 			{
-				n++;
+				matches++;
 				break;
 			}
-			else if (accept[r + 1] == '\0')
-				return (n);
+		if (accept[j + 1] == '\0' && s[i] != accept[j])
+		return (matches);
 		}
-		s++;
-	}
-	return (n);
-}
 
+		i++;
+	}
+	return (matches);
+}
