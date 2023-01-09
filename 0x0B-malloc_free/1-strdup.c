@@ -5,7 +5,7 @@
  * @s: array of elements
  * Return: 1
  */
-int strlen(char *s)
+int _strlen(char *s)
 {
 	unsignes int i;
 
