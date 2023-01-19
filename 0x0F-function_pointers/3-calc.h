@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#endif
-
 /**
  * struct op - Struct op
  * @op: operator
