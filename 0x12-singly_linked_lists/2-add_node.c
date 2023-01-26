@@ -4,7 +4,7 @@
  * add_node - adds a new node at the beginning
  * of a list list_t
  * @head: head of the linked list
- * @str: new string to store in the list
+ * @str: string to store in the list
  * Return: address of the head
  */
 
