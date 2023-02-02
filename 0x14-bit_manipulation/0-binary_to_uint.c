@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 			place *= 2;
 			continue;
 		}
-	
+
 		else if (b[n] == '1')
 		{
 			uint += place;
